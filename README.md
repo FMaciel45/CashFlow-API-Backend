@@ -60,7 +60,7 @@ interfaces definidas no Domínio (ex.: Repositórios usando Entity Framework
 Core), acesso ao banco de dados (DbContext), serviços externos, logging, etc.
 
 ### Fluxo da Aplicação
-Requisição HTTP → 2. Controller → 3. Validação → 4. Caso de Uso → 5.
+1. Requisição HTTP → 2. Controller → 3. Validação → 4. Caso de Uso → 5.
 Repositório → 6. Banco de Dados → 7. Resposta
 ### Utilização
 1. Clone o projeto
